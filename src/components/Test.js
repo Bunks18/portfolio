@@ -26,9 +26,7 @@ class Test extends Component {
           <Modal.Title>Modal heading</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-
         <p>something here</p>
- 
         </Modal.Body>
       </Modal>
       </div>
