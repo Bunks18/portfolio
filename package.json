@@ -2,7 +2,7 @@
   "name": "hundop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Bunks18.github.io/hundoChallenge",
+  "homepage": "https://Bunks18.github.io/porfolio",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "react": "^15.6.1",
