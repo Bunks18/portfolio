@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { SocialIcon } from 'react-social-icons';
 import '../App.css';
 
 class Test extends Component {
@@ -11,6 +12,8 @@ class Test extends Component {
            by day and an aspiring web developer when I'm not doing
           that.
         </h4>
+        <SocialIcon className="icon" url="https://www.linkedin.com/in/will-bunker-428b9155/" />
+        <SocialIcon className="icon" url="https://github.com/Bunks18/"/>
         <div className="content">
           <div className="grid">
             <figure className="effect-goliath">
@@ -32,7 +35,7 @@ class Test extends Component {
             <img src={require('../tt.PNG')} alt="img23" />
             <figcaption>
               <p>
-                A gift to my father. His very own travel consulting services website. Built with an html template purchased from Themeforst for $17.
+                A gift to my father. His very own travel consulting services website. Built with an html template purchased from Themeforest for $17.
               </p>
               <a
                 target="_blank"
