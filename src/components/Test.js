@@ -8,7 +8,7 @@ class Test extends Component {
       <div className="back">
         <h2>Hi</h2>
         <h4>
-          My name is Will and this is my porfolio site. I'm a technology consultant
+          My name is Will and this is my portfolio site. I'm a technology consultant
            by day and an aspiring web developer when I'm not doing
           that.
         </h4>
