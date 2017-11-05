@@ -6,14 +6,19 @@ class Test extends Component {
   render() {
     return (
       <div className="back">
-        <h2>Hi</h2>
-        <h4>
-          My name is Will and this is my portfolio site. I'm a technology consultant
-           by day and an aspiring web developer when I'm not doing
-          that.
-        </h4>
+        <div className="white-bottom">
+        <h2>Will Bunker</h2>
+        <h4>Washington, DC</h4>
+        <h4>Technical Consultant</h4>
         <SocialIcon className="icon" url="https://www.linkedin.com/in/will-bunker-428b9155/" />
         <SocialIcon className="icon" url="https://github.com/Bunks18/"/>
+        </div>
+        <div>
+        <h2>About</h2>
+       <h4>
+       My name is Will and this is my portfolio site. I'm a technology consultant by day and an aspiring web developer when I'm not doing that.
+       </h4> 
+        </div>
         <div className="content">
           <div className="grid">
             <figure className="effect-goliath">

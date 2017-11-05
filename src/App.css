@@ -20,10 +20,15 @@
   text-align: center;
 }
 
+.white-bottom{
+	border-bottom: 1px solid white;
+	padding-bottom: 10px;
+}
+
 .App-logo {
   /* animation: App-logo-spin infinite 20s linear; */
   margin-top:10px;
-  height: 80px;
+  height: 200px;
   border-radius: 10px;
 }
 
