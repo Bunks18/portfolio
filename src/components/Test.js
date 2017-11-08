@@ -22,7 +22,8 @@ class Test extends Component {
             <h3>About</h3>
             <h4>I'm Will and I'm a technology consultant by day and</h4>
             <h4>an aspiring web developer when I'm not doing that.</h4>
-            <h4>I love learning, building things I don't how to build, and I thrive in a team environment.</h4>
+            <h4>I love learning, building things I don't how to build, and </h4>
+            <h4>I thrive in a team environment.</h4>
 
             </div>
             <div className="about-child">
@@ -31,6 +32,7 @@ class Test extends Component {
             <h4>Languages: Javascript · HTML · CSS · R</h4>
             <h4>Front-End: React · Redux · Plotly · jQuery</h4>
             <h4>Back-End: Node · Express · Mongo · SQL · Socket.io</h4>
+            <h4>BI Tools: Tableau · PowerBI · Microstrategy · Alteryx </h4>
             </h4>
             </div>
           </div>
