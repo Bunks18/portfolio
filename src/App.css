@@ -46,6 +46,30 @@
   to { transform: rotate(360deg); }
 }
 
+.about-child{
+	float:left;
+	width: 50%;
+	text-align: left;
+	padding: 30px;
+}
+
+.about{
+	position: relative;
+	clear: both;
+	margin: 0 auto;
+	padding: 1em 0 4em;
+	max-width: 1000px;
+	list-style: none;
+	text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+	.about-child {
+		width:100%
+	}
+}
+
+
 .modal-container {
   position: relative;
 }
