@@ -9,14 +9,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={require('./Capture.PNG')} className="App-logo" alt="logo" />
-        <div>
+
         <Test/>
         </div>
-          <br/>
-          </div>
-      </div>
     );
   }
 }
