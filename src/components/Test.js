@@ -17,9 +17,9 @@ class Test extends Component {
           />
           <SocialIcon className="icon" url="https://github.com/Bunks18/" />
         </div>
-        <div className="proj">
-        <h2>About</h2>
-      </div>
+        <div className="proj lp">
+          <h2>ABOUT</h2>
+        </div>
         <div className="container">
           <div className="about">
             <div className="about-child section-1">
@@ -44,7 +44,7 @@ class Test extends Component {
         </div>
 
         <div className="proj">
-          <h2>Projects</h2>
+          <h2>PROJECTS</h2>
         </div>
 
         <div className="container padding">
@@ -54,6 +54,16 @@ class Test extends Component {
               alt="img23"
               className="port-img left"
             />
+            <div className="buttons">
+              <a target="_blank" href="https://bunks18.github.io/Restaurant-Recommendation-Application/index.html">
+                {' '}
+                <button className="button">Demo</button>
+              </a>
+              <a target="_blank" href="https://github.com/Bunks18/Restaurant-Recommendation-Application">
+              {' '}
+              <button className="button">Code</button>
+            </a>
+            </div>
           </div>
           <div className="about-child right-text">
             <h2>Yelp Clone</h2>
