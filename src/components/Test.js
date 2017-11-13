@@ -100,6 +100,16 @@ class Test extends Component {
               alt="img23"
               className="port-img right-img"
             />
+            <div className="buttons">
+            <a target="_blank" href="http://tailoredtravels.co/">
+              {' '}
+              <button className="button">Demo</button>
+            </a>
+            <a target="_blank" href="https://github.com/Bunks18/tailor">
+            {' '}
+            <button className="button">Code</button>
+          </a>
+          </div>
           </div>
         </div>
         <div className="container">
@@ -163,6 +173,32 @@ class Test extends Component {
             />
           </div>
         </div>
+        <div className="container padding">
+        <div className="about-child">
+          <img
+            src={require('../moving.PNG')}
+            alt="img23"
+            className="port-img left"
+          />
+          <div className="buttons">
+            <a target="_blank" href="https://public.tableau.com/profile/badleybunker.llc#!/vizhome/DCMovingViolations_02132016/MovingViolations">
+              {' '}
+              <button className="button">Demo</button>
+            </a>
+          </div>
+        </div>
+        <div className="about-child right-text">
+          <h2>Project Zero Hackathon</h2>
+          <h4 className="code">Tableau · Alteryx</h4>
+          <h4>
+            Last year my <a target="_blank" href="https://www.linkedin.com/in/luke-bunker-4662641a/">brother</a>, and another friend and I teamed up for 
+          </h4>
+          <h4>
+          <a target="_blank" href="http://opengovhub.org/events/2/2016/dc-vision-zero-hackathon">Project Zero's</a> hackathon that looked at open source DC 
+          </h4>
+          <h4> traffic and ticketing data. After 3 hours this was our final product.</h4>
+        </div>
+      </div>
       </div>
     );
   }
