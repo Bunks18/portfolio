@@ -7,7 +7,7 @@ class Test extends Component {
     return (
       <div className="back">
         <div className="white-bottom">
-          <img src={require('../Capture.PNG')} className="App-logo" />
+          <img alt="img" src={require('../Capture.PNG')} className="App-logo" />
           <h2>Will Bunker</h2>
           <h4>Washington, DC</h4>
           <h4>Technical Consultant</h4>
@@ -55,11 +55,11 @@ class Test extends Component {
               className="port-img left"
             />
             <div className="buttons">
-              <a target="_blank" href="https://bunks18.github.io/Restaurant-Recommendation-Application/index.html">
+              <a target="_blank" href="https://bunks18.github.io/Restaurant-Recommendation-Application/index.html" rel="noopener noreferrer">
                 {' '}
                 <button className="button">Demo</button>
               </a>
-              <a target="_blank" href="https://github.com/Bunks18/Restaurant-Recommendation-Application">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/Bunks18/Restaurant-Recommendation-Application">
               {' '}
               <button className="button">Code</button>
             </a>
@@ -101,11 +101,11 @@ class Test extends Component {
               className="port-img right-img"
             />
             <div className="buttons">
-            <a target="_blank" href="http://tailoredtravels.co/">
+            <a  rel="noopener noreferrer" target="_blank" href="http://tailoredtravels.co/">
               {' '}
               <button className="button">Demo</button>
             </a>
-            <a target="_blank" href="https://github.com/Bunks18/tailor">
+            <a rel="noopener noreferrer" target="_blank" href="https://github.com/Bunks18/tailor">
             {' '}
             <button className="button">Code</button>
           </a>
@@ -181,7 +181,7 @@ class Test extends Component {
             className="port-img left"
           />
           <div className="buttons">
-            <a target="_blank" href="https://public.tableau.com/profile/badleybunker.llc#!/vizhome/DCMovingViolations_02132016/MovingViolations">
+            <a rel="noopener noreferrer" target="_blank" href="https://public.tableau.com/profile/badleybunker.llc#!/vizhome/DCMovingViolations_02132016/MovingViolations">
               {' '}
               <button className="button">Demo</button>
             </a>
@@ -191,10 +191,10 @@ class Test extends Component {
           <h2>Project Zero Hackathon</h2>
           <h4 className="code">Tableau · Alteryx</h4>
           <h4>
-            Last year my <a target="_blank" href="https://www.linkedin.com/in/luke-bunker-4662641a/">brother</a>, and another friend and I teamed up for 
+            Last year my <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/luke-bunker-4662641a/">brother</a>, and another friend and I teamed up for 
           </h4>
           <h4>
-          <a target="_blank" href="http://opengovhub.org/events/2/2016/dc-vision-zero-hackathon">Project Zero's</a> hackathon that looked at open source DC 
+          <a target="_blank"  rel="noopener noreferrer" href="http://opengovhub.org/events/2/2016/dc-vision-zero-hackathon">Project Zero's</a> hackathon that looked at open source DC 
           </h4>
           <h4> traffic and ticketing data. After 3 hours this was our final product.</h4>
         </div>
