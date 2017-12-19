@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import '../src/Capture.PNG'
 import './App.css';
 import Test from '../src/components/Test';
+// import GridContainer from '../src/components/GridContainer';
 
 
 class App extends Component {
