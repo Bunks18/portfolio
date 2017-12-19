@@ -119,6 +119,16 @@ class Test extends Component {
               alt="img23"
               className="port-img left"
             />
+            <div className="buttons">
+            <a target="_blank" href="https://hidden-bayou-24533.herokuapp.com/landing" rel="noopener noreferrer">
+              {' '}
+              <button className="button">Demo</button>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Bunks18/react_capstone_front">
+            {' '}
+            <button className="button">Code</button>
+          </a>
+          </div>
           </div>
           <div className="about-child right-text">
             <h2>Goal Getter</h2>
@@ -143,6 +153,7 @@ class Test extends Component {
               experience passing data back and forth from the server to the
               client.
             </h4>
+            
           </div>
         </div>
         <div className="container padding">
@@ -171,6 +182,16 @@ class Test extends Component {
               alt="img23"
               className="port-img right-img"
             />
+            <div className="buttons">
+            <a target="_blank" href="https://murmuring-shelf-26424.herokuapp.com/" rel="noopener noreferrer">
+              {' '}
+              <button className="button">Demo</button>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Bunks18/reactChat">
+            {' '}
+            <button className="button">Code</button>
+          </a>
+          </div>
           </div>
         </div>
         <div className="container padding">
