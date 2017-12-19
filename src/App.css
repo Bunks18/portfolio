@@ -177,7 +177,9 @@ body {
 }
 
 img{
-	box-shadow: 10px 10px 5px #888888;
+	-webkit-box-shadow: 0 15px 6px -6px #8888;
+  -moz-box-shadow: 0 15px 6px -6px #8888;
+  box-shadow: 0 15px 6px -6px #8888;
 }
 
 
