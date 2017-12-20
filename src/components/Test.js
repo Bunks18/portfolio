@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { SocialIcon } from 'react-social-icons';
-import '../App.css';
+import '../App1.css';
 
 class Test extends Component {
   render() {
